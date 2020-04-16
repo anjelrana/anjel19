@@ -1,0 +1,170 @@
+/* --------------------------------- =banner -------------------------------- */
+
+.banner {
+    background: url(../img/a.jpg) no-repeat;
+    width: 700px;
+    height: 400px;
+    color: white;
+    position: relative;
+    
+}
+.banner p {
+    font-size: 40px;
+    position: absolute;
+    width: 400px;
+    top: 250px;
+    left: 20px;
+    line-height: 1em;
+    font-family: monospace;
+}
+.callout {
+    background: url(../img/b.jpg);
+    width: 200px;
+    height: 400px;
+    text-indent: -9999px;
+
+}
+
+
+/* --------------------------------- =footer -------------------------------- */
+
+.footer {
+    clear: both;
+}
+
+/* ----------------------------- =miscellanious ----------------------------- */
+
+/* --------------------------------- =header -------------------------------- */
+header h2 {
+    color: white;
+    font-weight: lighter;
+    font-size: 40px;
+    letter-spacing: 1px;
+    float: left;
+    padding-left: 35px;
+    padding-top: 15px;
+    font-family: 'Inconsolata', monospace;
+    
+
+}
+header nav {
+    float: right;
+    margin: 34px 45px 20px;
+    
+}
+header nav li {
+    display: inline;
+    padding-right: 12px;
+
+}
+header nav a {
+    color:rgb(168, 165, 165);
+    text-decoration: none;
+    
+    
+
+}
+nav a:hover, .select {
+    color: white;
+}
+/* --------------------------------- =board --------------------------------- */
+.board {
+    background-color: black;
+    border-radius:18px;
+    padding-bottom: -20px;
+    margin: 10px 0 20px;
+}
+
+/* ---------------------------------- =main --------------------------------- */
+.main .content {
+    margin-top: 30px;
+
+}
+.content h4 {
+    text-transform: lowercase;
+    font-size: 28px;
+    line-height: 1em;
+    border-bottom: 1px solid rgb(182, 181, 181);
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+.content p {
+    color: #707070;
+    font-size: 14px;
+    line-height: 23px;
+    
+}
+.button a {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-variant: normal;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+.button a:hover {
+    color: black;
+    font-weight: bold;
+    background: gray;
+}
+
+/* ------------------------------- =blockquote ------------------------------ */
+.quote p{
+    font-size: 23px;
+    line-height: 30px;
+    font-style: italic;
+    margin: 30px 20px 20px 30px;
+    color: rgb(139, 138, 138);
+   
+
+
+}
+blockquote {
+    position: relative;
+}
+blockquote p::before {
+    content: '/';
+    position: absolute;
+    left: 5px;
+    
+    
+}
+blockquote  p::after {
+    content: '/';
+    float: right;
+   
+}
+
+blockquote  p::after,
+blockquote p::before {
+    color: rgb(209, 207, 207);
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* --------------------------------- =footer -------------------------------- */
+footer p {
+    border-top: 1px solid rgb(182, 181, 181);
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+footer  {
+    background-color: black;
+}
+ .id , .tw{
+    color: rgb(212, 211, 211);
+    text-decoration: none;
+    padding: 25px;
+    font-style: italic;
+    font-variant: small-caps;
+    
+}
+.id:hover {
+    color: rgb(255, 121, 143);
+}
+.tw:hover {
+    color: rgb(37, 216, 207);
+}
